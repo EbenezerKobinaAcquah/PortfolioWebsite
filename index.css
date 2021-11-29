@@ -37,11 +37,7 @@ body {
     color: hsla(0, 0%, 100%, 0.801);
     font-size: 1.5em;
     font-weight: 700;
-    /* color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    padding: 20% 0 5% 0; */
+   
 }
 
 
@@ -128,11 +124,13 @@ body {
 .btn {
     font-size: x-large;
     margin: 0 0 15% 0;
+   
+}
+#skils-button{
     border-color: #5506b2;
     background-color: #5506b2;
     color: white;
 }
-
 .btn:hover {
     color: white;
 }
@@ -168,8 +166,8 @@ body {
     margin-top: 100%;
 }
 
-.github {
-    color: black;
+.fa-github {
+    color: rgb(36, 28, 28);
 }
 
 .socials {
@@ -231,7 +229,9 @@ body {
     text-align: center;
     margin: 20% auto 5% auto;
 }
-
+.middle{
+    text-align: center;
+}
 .center {
     padding: 0 10% 5%;
     margin: 0 auto 0 auto;
@@ -254,6 +254,10 @@ footer {
 .col-md-4 {
     border: solid 0.1px rgb(75, 71, 71);
 }
+#contactme{
+    margin-top: 10%;
+
+}
 
 @media (max-width:768px) {
     body {
@@ -267,10 +271,7 @@ footer {
         padding-top: -100px;
         margin-top: -20px;
     }
-    #Otherpages {
-        padding-left: 10%;
-        
-    }
+    
     .about-me-div {
         text-align: center;
         padding-left: 6%;
@@ -284,4 +285,80 @@ footer {
     .table-responsive{
        overflow: scroll;
    }
+  #fo{
+      padding-top: 180%;
+  }
+}
+
+
+
+.home-testimonial {
+    background-color: #231834;
+    height: 380px
+}
+
+.home-testimonial-bottom {
+    background-color: #f8f8f8;
+  
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px;
+}
+
+.home-testimonial h3 {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.home-testimonial h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.testimonial-inner {
+    position: relative;
+    top: -174px;
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px;
+}
+
+.testimonial-inner .tour-desc {
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.color-grey-3 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+
+.link-position {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
 }
