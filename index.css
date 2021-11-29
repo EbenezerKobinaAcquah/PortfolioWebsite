@@ -44,25 +44,6 @@ body {
     padding: 20% 0 5% 0; */
 }
 
-@media (max-width:768px) {
-    body {
-        text-align: center;
-    }
-    .socials {
-        text-align: left;
-    }
-    #Otherpages {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    .about-me-div {
-        text-align: center;
-        padding-left: 6%;
-    }
-    .skills {
-        margin-left: 5%;
-    }
-}
 
 .Name {
     color: white;
@@ -181,10 +162,10 @@ body {
     font-size: small;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 10%;
+    padding-top: 50%;
     margin-bottom: 0;
     border-radius: 0.25 rem;
-    margin-top: 60%;
+    margin-top: 100%;
 }
 
 .github {
@@ -195,7 +176,10 @@ body {
     margin-bottom: 5%;
     padding: 2%;
 }
+.black{
+    background-color: black;
 
+}
 .About {
     padding-left: 5%;
     margin-bottom: 3%;
@@ -269,4 +253,35 @@ footer {
 
 .col-md-4 {
     border: solid 0.1px rgb(75, 71, 71);
+}
+
+@media (max-width:768px) {
+    body {
+        text-align: center;
+    }
+    .socials {
+        text-align: left;
+        
+    }
+    .mysocials{
+        padding-top: -100px;
+        margin-top: -20px;
+    }
+    #Otherpages {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .about-me-div {
+        text-align: center;
+        padding-left: 6%;
+    }
+    .skills {
+        margin-left: 5%;
+    }
+    .adjust{
+        margin-top: 10%;
+    }
+    .table-responsive{
+       overflow: scroll;
+   }
 }
