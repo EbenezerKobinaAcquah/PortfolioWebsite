@@ -371,3 +371,7 @@ button{
    z-index: 2000;
   }
  
+  .modal-body{
+      position: relative;
+      z-index: 3600;
+  }
